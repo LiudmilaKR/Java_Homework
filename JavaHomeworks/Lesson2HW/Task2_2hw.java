@@ -49,6 +49,8 @@ public class Task2_2hw {
         // System.out.println("Отсортированный массив");
         // System.out.println(Arrays.toString(arr));
         loging.info("Отсортитрованный массив => " + Arrays.toString(arr)); 
+        // добавила после замечаний преподавателя, но не поняла, на каком этапе это необходимо делать
+        fh.close();
     }
 
     public static int[] get_array(int n) {
