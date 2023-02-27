@@ -48,8 +48,8 @@ public class Task1_3hw {
     
     public static int[] getArray(int n) {
         int[] some_array = new int[n];
+        Random rand = new Random();
         for (int i = 0; i < n; i++) {
-            Random rand = new Random();
             some_array[i] = rand.nextInt(1, 100);  
         }
         return some_array;
